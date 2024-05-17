@@ -9,5 +9,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  img{
+    display: block;
+    width: 100%;
+  }
 `
 export default GlobalStyle
