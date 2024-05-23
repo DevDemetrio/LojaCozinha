@@ -36,8 +36,10 @@ export const GeneralContainerItem = styled.div`
   
 `
 export const ItemContainer = styled.article`
-  border: 1px solid #000000;
+  max-width: 700px;
+  margin: 0 auto 10px auto;
   
+  border: 1px solid #000000;
   @media (min-width: 700px) {
     display: flex;
   }
