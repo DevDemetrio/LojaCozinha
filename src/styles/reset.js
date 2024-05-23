@@ -9,5 +9,9 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
+  body, article, div, h2, span, p,button{
+    margin: 0;
+    padding: 0;
+  } 
 `
 export default GlobalStyle
