@@ -37,6 +37,10 @@ export const GeneralContainerItem = styled.div`
 `
 export const ItemContainer = styled.article`
   border: 1px solid #000000;
+  
+  @media (min-width: 700px) {
+    display: flex;
+  }
 
 
 `
@@ -49,18 +53,18 @@ export const DescriptionContainer = styled.div`
 
    @media (min-width: 400px){
     width: 266px;
-    height: 266px;
+    height: 136px;
    }
 
 
    @media (min-width: 600px){
     width: 326px;
-    height: 326px;
+    height: 136px;
    }
 
    @media (min-width: 800px){
     width: 376px;
-    height: 376px;
+    height: 136px;
    }
 `
 
@@ -79,4 +83,10 @@ export const PriceProduct = styled.span`
 `
 export const BuyButton = styled.button`
 display: block;
+width: 200px;
+height: 30px;
+margin: 20px auto 20px auto;
+
+font-size: 18px;
+font-weight: bold;
 `
