@@ -6,8 +6,7 @@ export const ImgProduct = styled.img`
    width: 168px;
    height: 168px;
 
-   margin-left: auto;
-   margin-right: auto;
+   margin: 1.5rem auto 0 auto;
 
    
    @media (min-width: 400px){
@@ -46,8 +45,7 @@ export const DescriptionContainer = styled.div`
    width: 220px;
    padding: 0 0px 0 25px;
 
-   margin-left: auto;
-   margin-right: auto;
+   margin: 20px auto 0 auto;
 
    @media (min-width: 400px){
     width: 266px;
