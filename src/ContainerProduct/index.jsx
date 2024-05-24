@@ -1,4 +1,5 @@
 import { 
+         ImgProductContainer,
          ImgProduct,
          ItemContainer, 
          GeneralContainerItem, 
@@ -7,6 +8,7 @@ import {
          DescriptionProduct,
          DiscountPrice,
          PriceProduct,
+         DescriptionContainerItens,
          BuyButton
 
           } from "./styled"
@@ -17,15 +19,17 @@ const ContainerProduct = ({produtos}) =>{
       {
         produtos.map((item) => (
           <ItemContainer key={item.id}>
-            <div>
+            <ImgProductContainer>
               <ImgProduct src={item.imagem} alt={item.descricao} />
-            </div>
+            </ImgProductContainer>
               <DescriptionContainer>
+                <DescriptionContainerItens>
                   <TitleProduct>{item.nome}</TitleProduct>
                   <DescriptionProduct>{item.descricao}</DescriptionProduct>
                   <DiscountPrice>{item.precoDesconto}</DiscountPrice>
                   <PriceProduct>{item.preco}</PriceProduct>
-                  <BuyButton>Comprar</BuyButton>
+                </DescriptionContainerItens>
+                    <BuyButton>Comprar</BuyButton>
               </DescriptionContainer>
 
           </ItemContainer>
