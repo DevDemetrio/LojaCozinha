@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
   body, article, div, h2, span, p,button{
     margin: 0;
     padding: 0;
-  } 
+  }
+  
+  span{
+    display: block;
+  }
 `
 export default GlobalStyle

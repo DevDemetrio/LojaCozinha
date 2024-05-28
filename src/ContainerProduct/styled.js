@@ -82,6 +82,7 @@ export const DescriptionProduct = styled.p`
 `
 export const DiscountPrice = styled.span`
   
+  
 `
 
 export const PriceProduct = styled.span`
@@ -114,3 +115,4 @@ export const DescriptionContainerItens = styled.div`
 export const ImgProductContainer = styled.div`
  
 `
+
