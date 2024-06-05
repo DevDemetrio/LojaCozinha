@@ -26,8 +26,8 @@ const ContainerProduct = ({produtos}) =>{
                 <DescriptionContainerItens>
                   <TitleProduct>{item.nome}</TitleProduct>
                   <DescriptionProduct>{item.descricao}</DescriptionProduct>
-                  <DiscountPrice>{item.precoDesconto}</DiscountPrice>
-                  <PriceProduct>{item.preco}</PriceProduct>
+                  <DiscountPrice $temDesconto={item.temDesconto}>{item.precoDesconto}</DiscountPrice>
+                  <PriceProduct  $temDesconto={item.temDesconto}>{item.preco}</PriceProduct>
                 </DescriptionContainerItens>
                     <BuyButton>Comprar</BuyButton>
               </DescriptionContainer>

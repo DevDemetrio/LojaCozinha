@@ -5,26 +5,26 @@
       "nome": "Batedeira",
       "descricao": "Batedeira de alta potência",
       "imagem": "/images/batedeira.png",
-      "preco": 199.99,
-      "precoDesconto": 179.99,
-      "temDesconto": true
+      "preco": "R$ 199.99",
+      "precoDesconto": "R$ 179.99",
+      "temDesconto": false
     },
     {
       "id": 2,
       "nome": "Chaleira",
       "descricao": "Chaleira elétrica",
       "imagem": "/images/chaleira.png",
-      "preco": 89.99,
-      "precoDesconto": 79.99,
+      "preco": "R$ 89.99",
+      "precoDesconto": "R$ 79.99",
       "temDesconto": true
     },
     {
       "id": 3,
-      "nome": "Churrasqueira Elétrica 2",
+      "nome": "Churrasqueira Elétrica",
       "descricao": "Churrasqueira elétrica modelo 2",
       "imagem": "/images/Churrasqueira-Eletrica2.png",
-      "preco": 299.99,
-      "precoDesconto": 269.99,
+      "preco": "R$ 299.99",
+      "precoDesconto": "R$ 249.99",
       "temDesconto": true
     },
     {
@@ -32,8 +32,8 @@
       "nome": "Churrasqueira Elétrica",
       "descricao": "Churrasqueira elétrica",
       "imagem": "/images/Churrasqueira-Eletrica.png",
-      "preco": 279.99,
-      "precoDesconto": 259.99,
+      "preco": "R$ 279.99",
+      "precoDesconto": "R$ 259.99",
       "temDesconto": false
     },
     {
@@ -41,8 +41,8 @@
       "nome": "Fogão",
       "descricao": "Fogão 4 bocas",
       "imagem": "/images/Fogao.png",
-      "preco": 599.99,
-      "precoDesconto": 549.99,
+      "preco": "R$ 599.99",
+      "precoDesconto": "R$ 549.99",
       "temDesconto": true
     },
     {
@@ -50,26 +50,26 @@
       "nome": "Geladeira",
       "descricao": "Geladeira frost free",
       "imagem": "/images/geladeira.png",
-      "preco": 1299.99,
-      "precoDesconto": 1199.99,
-      "temDesconto": false
+      "preco": "R$ 1299.99",
+      "precoDesconto": "R$ 1149.99",
+      "temDesconto": true
     },
     {
       "id": 7,
       "nome": "Liquidificador",
       "descricao": "Liquidificador de alta performance",
       "imagem": "/images/liguidificador.png",
-      "preco": 149.99,
-      "precoDesconto": 139.99,
-      "temDesconto": true
+      "preco": "R$ 149.99",
+      "precoDesconto": "R$ 139.99",
+      "temDesconto": false
     },
     {
       "id": 8,
       "nome": "Sanduicheira",
       "descricao": "Sanduicheira elétrica",
       "imagem": "/images/Sanduicheira.png",
-      "preco": 59.99,
-      "precoDesconto": 49.99,
+      "preco": "R$ 59.99",
+      "precoDesconto": "R$ 49.99",
       "temDesconto": true
     }
   ]

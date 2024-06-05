@@ -81,12 +81,12 @@ export const DescriptionProduct = styled.p`
   
 `
 export const DiscountPrice = styled.span`
-  
-  
+ display: ${(props) => (props.$temDesconto ? 'block' : 'none')};
+ 
 `
 
 export const PriceProduct = styled.span`
-  
+  text-decoration: ${(props) => (props.$temDesconto ? 'line-through' : 'none')};
 `
 export const BuyButton = styled.button`
 display: block;
